@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.yu.yuhideinfo.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AddServerScreenMixin",
+		"DirectConnectScreenMixin",
+		"ScreenAccessor",
+		"TextFieldWidgetMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

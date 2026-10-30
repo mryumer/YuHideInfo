@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "yuhideinfo",
+	"version": "${version}",
+	"name": "YuHideInfo",
+	"description": "Hides server IP addresses in the direct connect and add/edit server screens until you explicitly reveal them.",
+	"authors": [
+		"MrYumer"
+	],
+	"contact": {
+		"sources": "https://github.com/mryumer",
+		"homepage": "https://modrinth.com/user/MrYumer"
+	},
+	"license": "MIT",
+	"icon": "assets/yuhideinfo/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.yu.yuhideinfo.YuHideInfoClient"
+		]
+	},
+	"mixins": [
+		"yuhideinfo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": ">=0.140.0"
+	}
+}

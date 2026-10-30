@@ -1,0 +1,29 @@
+# Папки сборки и кэша Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Настройки IDE (IntelliJ IDEA и Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Файлы, создаваемые при тестировании мода (запуск игры)
+run/
+runs/
+logs/
+*.log
+
+# Прочий мусор от Java
+hs_err_pid*
+*.hprof
+*.jfr
+
+# Системный мусор (Windows / Mac)
+.DS_Store
+Thumbs.db
