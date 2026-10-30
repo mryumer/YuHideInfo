@@ -8,8 +8,8 @@
 		"MrYumer"
 	],
 	"contact": {
-		"sources": "https://github.com/mryumer",
-		"homepage": "https://modrinth.com/user/MrYumer"
+		"sources": "https://github.com/mryumer/YuHideInfo",
+		"homepage": "https://modrinth.com/mod/yuHideInfo"
 	},
 	"license": "MIT",
 	"icon": "assets/yuhideinfo/icon.png",
